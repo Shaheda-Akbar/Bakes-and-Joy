@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- === DYNAMIC CONTENT START === -->
+  <title><!-- [Product Name Here] --> - Bakes & Joy</title>
+  <meta name="description" content="Order our <!-- [Product Name Here] -->. <!-- [Short Product Description Here] --> Baked with love by Bakes & Joy.">
+  <!-- === DYNAMIC CONTENT END === -->
+
+  <link rel="stylesheet" href="css/home.css"> <!-- Link to your main CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="icon" href="/favicon.ico" sizes="any"> <!-- TODO: Add your favicon -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- TODO: Add your apple touch icon -->
+
+  <!--
+    RECOMMENDATION: Move these styles into your main css/home.css file
+    (or create a new css/product.css and link it)
+    using the class names provided (e.g., .product-detail-container)
+  -->
+  <style>
+    .product-detail-container { display: flex; flex-wrap: wrap; gap: 40px; max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    .product-image-column { flex: 1; min-width: 300px; }
+    .product-image-column img { width: 100%; max-width: 500px; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin: 0 auto; display: block; }
+    .product-info-column { flex: 1; min-width: 300px; }
+    .product-info-column h1 { font-size: 2.5em; color: var(--color-text-primary-red); margin-bottom: 15px; text-align: left; }
+    .product-price-single { font-size: 1.8em; font-weight: 600; color: var(--color-text-dark); margin-bottom: 25px; }
+    .product-description-single { font-size: 1.1em; line-height: 1.7; color: var(--color-text-medium); margin-bottom: 25px; }
+    .ingredients-section { margin-bottom: 25px; }
+    .ingredients-section h4 { font-size: 1.2em; margin-bottom: 10px; color: var(--color-text-dark); font-weight: 600; }
+    .ingredients-section p, .ingredients-section ul { font-size: 1em; color: var(--color-text-medium); line-height: 1.6; }
+    .ingredients-section ul { list-style: disc; margin-left: 20px; }
+    .quantity-selector { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; }
+    .quantity-selector label { font-weight: 600; }
+    .quantity-selector input[type="number"] { width: 60px; padding: 8px 10px; text-align: center; border: 1px solid #ccc; border-radius: 4px; font-size: 1em; }
+    .add-to-cart-button { padding: 15px 35px; font-size: 1.2em; }
+    #related-products { padding: 60px 20px; background-color: var(--color-bg-light-pink); text-align: center; }
+    #related-products h2 { font-size: 2.5em; color: var(--color-text-primary-red); margin-bottom: 40px; }
+    #related-products .product-grid { max-width: 1200px; margin: 0 auto; }
+    @media (max-width: 768px) {
+        .product-info-column h1 { font-size: 2em; text-align: center; }
+        .product-price-single { font-size: 1.6em; text-align: center; }
+        .product-description-single, .ingredients-section { text-align: center; }
+        .ingredients-section ul { text-align: left; display: inline-block; }
+        .quantity-selector { justify-content: center; }
+        .add-to-cart-button { display: block; width: 80%; margin: 0 auto; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======================= -->
+  <!--    Reusable Header      -->
+  <!-- ======================= -->
+  <header>
+    <!-- Your standard header code here... -->
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Bakes & Joy Logo"></a> </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <!-- Removed active-nav class, as this isn't the main shop page -->
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="header-button">Custom Order Inquiry</a>
+    </nav>
+    <div class="social-icons">
+      <!-- TODO: Replace placeholder URLs -->
+      <a href="YOUR_INSTAGRAM_URL" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="YOUR_FACEBOOK_URL" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="YOUR_TIKTOK_URL" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="tel:0703161673" aria-label="Call Us"><i class="fas fa-phone"></i></a>
+    </div>
+  </header>
+
+  <!-- ======================= -->
+  <!--  Main Content Wrapper   -->
+  <!-- ======================= -->
+  <div class="content-wrapper">
+    <main>
+
+      <!-- ========================== -->
+      <!-- Single Product Details   -->
+      <!-- ========================== -->
+      <section id="product-details">
+        <div class="product-detail-container">
+
+          <!-- === DYNAMIC CONTENT START === -->
+          <!-- Product Image Column -->
+          <div class="product-image-column">
+             <!-- Populated by JS -->
+            <img src="" alt="Loading product image...">
+          </div>
+
+          <!-- Product Information Column -->
+          <div class="product-info-column">
+             <!-- Populated by JS -->
+            <h1>Loading...</h1>
+
+             <!-- Populated by JS -->
+            <p class="product-price-single"> </p>
+
+             <!-- Populated by JS -->
+            <p class="product-description-single">
+              Loading description...
+            </p>
+
+            <!-- Ingredients Section (Populated by JS, hidden if no ingredients) -->
+            <div class="ingredients-section" style="display: none;"> <!-- Hidden initially -->
+              <h4>Ingredients:</h4>
+               <!-- Populated by JS -->
+               <p></p>
+            </div>
+            <!-- === DYNAMIC CONTENT END === -->
+
+            <!-- Quantity Selector -->
+            <div class="quantity-selector">
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" name="quantity" value="1" min="1" aria-label="Quantity">
+            </div>
+
+            <!-- Add to Cart Button -->
+            <!-- Needs real cart JS implementation -->
+            <button type="submit" class="button button--red add-to-cart-button" disabled> <!-- Disabled initially -->
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+
+          </div> <!-- End Product Info Column -->
+        </div> <!-- End Product Detail Container -->
+      </section>
+
+      <!-- ========================== -->
+      <!--    Related Products        -->
+      <!-- ========================== -->
+      <section id="related-products" style="display: none;"> <!-- Hidden initially -->
+        <h2>You Might Also Like</h2>
+        <div class="product-grid">
+          <!-- === DYNAMIC CONTENT START === -->
+          <!-- Populated by JS -->
+          <!-- === DYNAMIC CONTENT END === -->
+        </div> <!-- End Related Product Grid -->
+      </section>
+
+    </main>
+  </div> <!-- End content-wrapper -->
+
+  <!-- ======================= -->
+  <!--    Reusable Footer      -->
+  <!-- ======================= -->
+  <footer class="footer">
+    <!-- Your standard footer code here... -->
+    <div class="footer-row">
+      <div class="footer-col"> <img src="images/logo.png" alt="Bakes & Joy Logo" class="footer-logo-img"> <div class="icons footer-social-icons"> <!-- TODO: Replace placeholder URLs --><a href="YOUR_FACEBOOK_URL" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a> <a href="YOUR_INSTAGRAM_URL" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a> <a href="YOUR_TIKTOK_URL" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a> </div> </div>
+      <div class="footer-col"> <h4>Quick Links</h4> <ul class="links"> <li><a href="index.html">Home</a></li> <li><a href="about.html">About</a></li> <li><a href="shop.html">Shop</a></li> <li><a href="contact.html">Contact</a></li> </ul> </div>
+      <div class="footer-col"> <h4>Shop Categories</h4> <ul class="links"> <li><a href="shop.html#shop-brownies">Brownies</a></li> <li><a href="shop.html#shop-cookies">Cookies</a></li> <li><a href="shop.html#shop-other-sweets">Other Sweets</a></li> <li><a href="contact.html">Custom Cakes</a></li> </ul> </div>
+      <div class="footer-col"> <h4>Contact</h4> <p><i class="fas fa-phone-alt"></i> <a href="tel:0703161673">0703161673</a></p> <p><i class="fas fa-map-marker-alt"></i> No:191, Railway Avenue, Maharagama</p> <p><i class="fas fa-envelope"></i> <a href="mailto:hellobakesnjoy@gmail.com">hellobakesnjoy@gmail.com</a></p> </div>
+    </div>
+  </footer>
+
+  <!-- ======================= -->
+  <!--   Reusable Copyright    -->
+  <!-- ======================= -->
+  <div class="copyright">
+    <p>© 2024 Bakes & Joy. All rights reserved.</p>
+  </div>
+
+  <!-- ======================================= -->
+  <!--  DYNAMIC CONTENT & INTERACTIVITY SCRIPT -->
+  <!-- ======================================= -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // --- Helper Functions ---
+      const getProductIdFromUrl = () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('id'); // Gets value of 'id' parameter
+      };
+
+      const fetchProducts = async () => {
+        try {
+          // Adjust path if products.json is not in the root directory
+          const response = await fetch('products.json'); // Make sure products.json is accessible from this page's path
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return await response.json();
+        } catch (error) {
+          console.error("Could not fetch products:", error);
+          return null; // Return null indicates failure
+        }
+      };
+
+      const findProductById = (products, id) => {
+        if (!products || !id) return null;
+        return products.find(p => p.id === id);
+      };
+
+      const populateProductDetails = (product) => {
+        if (!product) return; // Do nothing if product is null
+
+        // --- Populate Head ---
+        document.title = `${product.name} - Bakes & Joy`;
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+          // Use the first sentence or a fixed length for short description
+          const shortDesc = product.description ? (product.description.split('.')[0] + '.') : 'Delicious treats';
+          metaDescription.content = `Order our ${product.name}. ${shortDesc} Baked with love by Bakes & Joy.`;
+        }
+
+        // --- Populate Body ---
+        const imageElement = document.querySelector('.product-image-column img');
+        const nameElement = document.querySelector('.product-info-column h1');
+        const priceElement = document.querySelector('.product-price-single');
+        const descriptionElement = document.querySelector('.product-description-single');
+        const ingredientsContainer = document.querySelector('.ingredients-section'); // Target the container div
+        const ingredientsElement = ingredientsContainer?.querySelector('p'); // Target the <p> inside
+        const addToCartButton = document.querySelector('.add-to-cart-button');
+
+        if (imageElement) {
+          imageElement.src = product.image_url || 'images/placeholder.png'; // Provide a fallback image
+          imageElement.alt = product.name;
+        }
+        if (nameElement) nameElement.textContent = product.name;
+        if (priceElement) priceElement.textContent = product.price || 'Price unavailable';
+        if (descriptionElement) descriptionElement.textContent = product.description || 'No description available.';
+
+        // Handle ingredients display
+        if (ingredientsContainer && ingredientsElement) {
+            if (product.ingredients) {
+                ingredientsElement.textContent = product.ingredients;
+                ingredientsContainer.style.display = ''; // Show the section
+            } else {
+                 ingredientsContainer.style.display = 'none'; // Keep section hidden if no ingredients
+            }
+        }
+
+        // Update Add to Cart button's context and enable it
+        if (addToCartButton) {
+            addToCartButton.dataset.productId = product.id;
+            addToCartButton.disabled = false; // Enable the button now that product data is loaded
+        }
+      };
+
+      const populateRelatedProducts = (allProducts, currentProduct) => {
+         if (!allProducts || !currentProduct) return;
+
+         const relatedSection = document.getElementById('related-products');
+         const relatedContainer = relatedSection?.querySelector('.product-grid');
+         if (!relatedContainer || !relatedSection) return;
+
+         // --- Simple Related Product Logic: Same Category, Not Self ---
+         const related = allProducts.filter(p =>
+             p.category === currentProduct.category && p.id !== currentProduct.id
+         );
+
+         // Shuffle and pick max 4 related items
+         const shuffledRelated = related.sort(() => 0.5 - Math.random());
+         const itemsToShow = shuffledRelated.slice(0, 4); // Show max 4 related items
+
+         relatedContainer.innerHTML = ''; // Clear any placeholders
+
+         if (itemsToShow.length === 0) {
+             relatedSection.style.display = 'none'; // Hide section if no related items
+             return;
+         } else {
+              relatedSection.style.display = ''; // Ensure section is visible
+         }
+
+         itemsToShow.forEach(item => {
+            // Re-use the product item structure from shop page (ensure CSS matches)
+            const itemDiv = document.createElement('div');
+            itemDiv.classList.add('product-item'); // Use consistent class
+
+            const shortDesc = item.description
+                             ? (item.description.length > 100 ? item.description.substring(0, 97) + '...' : item.description)
+                             : ''; // Handle missing description
+
+            itemDiv.innerHTML = `
+              <img src="${item.image_url || 'images/placeholder.png'}" alt="${item.name}" class="product-image" loading="lazy">
+              <h3 class="product-name">${item.name}</h3>
+              <p class="product-description">${shortDesc}</p>
+              <p class="product-price">${item.price || ''}</p>
+              <a href="product-detail.html?id=${item.id}" class="button button--red product-button">View Product</a>
+            `;
+            relatedContainer.appendChild(itemDiv);
+         });
+      };
+
+      // --- Main Execution Function ---
+      const initializePage = async () => {
+        // Update static elements like copyright year
+        const copyrightText = document.querySelector('.copyright p');
+        if (copyrightText) {
+          copyrightText.textContent = `© ${new Date().getFullYear()} Bakes & Joy. All rights reserved.`;
+        }
+
+        // Basic Quantity Input validation
+        const quantityInput = document.getElementById('quantity');
+        if (quantityInput) {
+            quantityInput.addEventListener('change', function() {
+                const val = parseInt(this.value);
+                if (isNaN(val) || val < 1) {
+                    this.value = '1';
+                }
+            });
+            // Ensure initial value is valid
+            if(parseInt(quantityInput.value) < 1 || isNaN(parseInt(quantityInput.value))) {
+                quantityInput.value = '1';
+            }
+        }
+
+        // Add to Cart Placeholder Logic (Using data attribute set in populateProductDetails)
+        const addToCartButton = document.querySelector('.add-to-cart-button');
+        if (addToCartButton) {
+            addToCartButton.addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent form submission if it's inside a form
+                const quantity = document.getElementById('quantity')?.value || 1;
+                const productId = this.dataset.productId; // Get ID from data attribute
+                const productName = document.querySelector('.product-info-column h1')?.textContent || 'Product'; // Get name for alert
+
+                if (!productId) {
+                    alert("Error: Could not identify the product. Please refresh the page.");
+                    return;
+                }
+
+                alert(`Added ${quantity} x ${productName} (ID: ${productId}) to cart! (Placeholder - Needs real cart logic)`);
+
+                // TODO: Implement actual Add to Cart logic:
+                // 1. Get product ID, name, price (fetch again or store).
+                // 2. Get quantity.
+                // 3. Store item in cart (e.g., localStorage).
+                // 4. Update cart indicator in header (optional).
+                console.log('Add to Cart:', { id: productId, quantity: parseInt(quantity), name: productName });
+            });
+        }
+
+
+        // --- Dynamic Content Loading ---
+        const productId = getProductIdFromUrl();
+        const mainContentContainer = document.querySelector('#product-details .product-detail-container'); // Target inner container for error messages
+        const relatedSection = document.getElementById('related-products');
+
+        if (!productId) {
+          console.error("No product ID found in URL.");
+          if (mainContentContainer) mainContentContainer.innerHTML = '<h1>Product Not Found</h1><p>No product ID was specified in the URL. Please go back to the <a href="shop.html">shop</a> and select a product.</p>';
+          if (relatedSection) relatedSection.style.display = 'none'; // Hide related section
+          return; // Stop execution
+        }
+
+        const allProducts = await fetchProducts();
+
+        if (!allProducts) {
+           console.error("Failed to load product data.");
+           if (mainContentContainer) mainContentContainer.innerHTML = '<h1>Error Loading Product</h1><p>We couldn\'t load the product details right now. Please try again later or contact us.</p>';
+           if (relatedSection) relatedSection.style.display = 'none';
+           return; // Stop execution
+        }
+
+        const currentProduct = findProductById(allProducts, productId);
+
+        if (!currentProduct) {
+          console.error(`Product with ID "${productId}" not found.`);
+          if (mainContentContainer) mainContentContainer.innerHTML = `<h1>Product Not Found</h1><p>Sorry, we couldn't find a product with the ID "<strong>${productId}</strong>". Please go back to the <a href="shop.html">shop</a>.</p>`;
+          if (relatedSection) relatedSection.style.display = 'none';
+        } else {
+          // Product found, populate the page
+          populateProductDetails(currentProduct);
+          populateRelatedProducts(allProducts, currentProduct);
+        }
+      };
+
+      // Run the initialization function when the DOM is ready
+      initializePage();
+
+    });
+  </script>
+
+</body>
+</html>

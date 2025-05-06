@@ -1,0 +1,209 @@
+[
+    {
+      "id": "divine-brownies-6",
+      "name": "Divine Brownies (Box of 6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-divine.jpg",
+      "description": "Unleash your inner brownie dreamer! Six squares of pure brownie bliss await, each a canvas for your sweetest desires. Dive into the decadence of creamy Nutella, the vibrant burst of fresh strawberries, and the satisfying crunch of perfectly roasted nuts. It's a symphony of textures and flavors, all nestled atop our signature fudgy brownie. Customize your perfect trio and prepare for a brownie experience like no other.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Toppings (Choose from: Nutella, Fresh Strawberries, Roasted Nuts).",
+      "category": "brownies"
+    },
+    {
+      "id": "nutella-brownies-6",
+      "name": "Nutella Brownies (Box of 6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-nutella-6.jpg",
+      "description": "Prepare for an irresistible swirl of fudgy goodness! Our Nutella Brownies are a love letter to the iconic hazelnut spread. Each brownie is generously infused with creamy Nutella, creating a symphony of rich chocolate and nutty indulgence. Get ready to lose yourself in every decadent bite.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Nutella Swirl.",
+      "category": "brownies"
+    },
+    {
+      "id": "kitkat-brownies-6",
+      "name": "KitKat Brownies (Box of 6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-kitkat-6.jpg",
+      "description": "Fudgy meets crunchy in this irresistible masterpiece! We've taken our signature brownies and layered them with crispy Kit Kat bars, creating the perfect balance of textures and flavors. Each bite is a symphony of chocolatey goodness, a satisfying snap, and a whole lot of fun.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), KitKat Bar Pieces.",
+      "category": "brownies"
+    },
+    {
+      "id": "toblerone-brownies-6",
+      "name": "Toblerone Brownies (Box of 6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-toblerone-6.jpg",
+      "description": "Prepare for an adventure in chocolate! Our Toblerone Brownies are studded with chunks of the iconic Swiss chocolate, adding a touch of honey-almond nougat goodness to our signature fudgy brownies. Each bite is a journey to the top of chocolate mountain.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Toblerone Pieces.",
+      "category": "brownies"
+    },
+    {
+      "id": "standard-assorted-brownies-10",
+      "name": "Standard Assorted (Box of 10)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-assorted-standard.jpg",
+      "description": "Can't decide? Get a little bit of everything! Our Standard Assorted Brownies box features two brownies each from five popular varieties: Nutella, KitKat, Toblerone, Nuts & Strawberry. It's the perfect way to explore our entire brownie universe and find your new favorite.",
+      "ingredients": "Contains a mix of brownies including Nutella, KitKat, Toblerone, Nuts, and Strawberry topped versions. See individual brownie ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "special-assorted-brownies-12",
+      "name": "Special Assorted (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-assorted-special.jpg",
+      "description": "Prepare for a flavor explosion! This box is a carefully curated collection of our most decadent brownies: Nutella, KitKat, and Toblerone. With four of each variety, there's plenty to share (or keep all to yourself!).",
+      "ingredients": "Contains a mix of brownies including Nutella, KitKat, and Toblerone versions. See individual brownie ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "ganache-brownies-12",
+      "name": "Ganache Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-ganache.jpg",
+      "description": "For the true chocolate aficionado! Our Ganache Brownies are rich, fudgy, and loaded with a generous layer of dark chocolate ganache. Prepare for an intense chocolate experience that will leave you craving more.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Dark Chocolate Ganache Topping.",
+      "category": "brownies"
+    },
+    {
+      "id": "nutty-brownies-12",
+      "name": "Nutty Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-nutty-12.jpg",
+      "description": "Add a little crunch to your brownie indulgence! Our Nutty Brownies are loaded with a mix of perfectly roasted nuts, creating a satisfying texture and a burst of nutty flavor in every bite.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Mixed Roasted Nuts (e.g., Walnuts, Pecans - May contain peanuts/tree nuts).",
+      "category": "brownies"
+    },
+    {
+      "id": "strawberry-brownies-12",
+      "name": "Strawberry Topped (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-strawberry-12.jpg",
+      "description": "Sweeten your day with our Strawberry Topped Brownies! Moist, fudgy brownies are crowned with fresh, juicy strawberries for a delightful combination of rich chocolate and fruity refreshment.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Fresh Strawberry Topping.",
+      "category": "brownies"
+    },
+    {
+      "id": "nutella-brownies-12",
+      "name": "Nutella Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-nutella-12.jpg",
+      "description": "Prepare for an irresistible swirl of fudgy goodness! Our Nutella Brownies are a love letter to the iconic hazelnut spread. Each brownie is generously infused with creamy Nutella, creating a symphony of rich chocolate and nutty indulgence. Get ready to lose yourself in every decadent bite.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Nutella Swirl.",
+      "category": "brownies"
+    },
+     {
+      "id": "kitkat-brownies-12",
+      "name": "KitKat Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-kitkat-12.jpg",
+      "description": "Fudgy meets crunchy in this irresistible masterpiece! We've taken our signature brownies and layered them with crispy Kit Kat bars, creating the perfect balance of textures and flavors. Each bite is a symphony of chocolatey goodness, a satisfying snap, and a whole lot of fun.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), KitKat Bar Pieces.",
+      "category": "brownies"
+    },
+    {
+      "id": "toblerone-brownies-12",
+      "name": "Toblerone Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-toblerone-12.jpg",
+      "description": "Prepare for an adventure in chocolate! Our Toblerone Brownies are studded with chunks of the iconic Swiss chocolate, adding a touch of honey-almond nougat goodness to our signature fudgy brownies. Each bite is a journey to the top of chocolate mountain.",
+      "ingredients": "Fudgy Brownie Base (Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt), Toblerone Pieces.",
+      "category": "brownies"
+    },
+    {
+      "id": "classic-brownies-12",
+      "name": "Classic Brownies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-classic-12.jpg",
+      "description": "Sometimes, simple is best. Our Classic Brownies are rich, fudgy, and perfectly gooey in the center with crisp edges. They're a timeless treat that will satisfy your sweet cravings every time.",
+      "ingredients": "Flour, Sugar, Butter, Eggs, Dark Chocolate, Cocoa Powder, Sea Salt, Vanilla Extract.",
+      "category": "brownies"
+    },
+    {
+      "id": "combo-classic-nutella-6x6",
+      "name": "Combo: Classic & Nutella (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-classic-nutella.jpg",
+      "description": "The best of both worlds! 6 Rich Classic Brownies paired with 6 Nutella swirled delights. Why choose when you can have it all? This box gives you the perfect combo with classic brownies and the nutella brownies. Perfect to keep at home for snacking.",
+      "ingredients": "Contains 6 Classic Brownies and 6 Nutella Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "combo-nutty-kitkat-6x6",
+      "name": "Combo: Nutty & KitKat (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-nutty-kitkat.jpg",
+      "description": "The perfect blend of nutty flavor and crispy KitKat texture in one mouth-watering box. This combo box of Nutty and Kitkat gives you the perfect blend of the nutty flavor of our classic brownies with the crispiness of Kitkat's. The perfect balance that will make your mouth water.",
+      "ingredients": "Contains 6 Nutty Brownies and 6 KitKat Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "combo-strawberry-toblerone-6x6",
+      "name": "Combo: Strawberry & Toblerone (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-strawberry-toblerone.jpg",
+      "description": "A delightful fruity twist paired with the elevated Toblerone brownie experience. This is the perfect combination for you if you have the cravings! Our Strawberry brownies gives a Fruity and delightful twist with the fudgy brownie and we pair this with our Toblerone brownies that elevates your brownie experience.",
+      "ingredients": "Contains 6 Strawberry Topped Brownies and 6 Toblerone Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+     {
+      "id": "combo-nutella-nutty-6x6",
+      "name": "Combo: Nutella & Nutty (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-nutella-nutty.jpg",
+      "description": "Can't get enough nuts? Enjoy the swirl of Nutella and the satisfying crunch of nutty brownies. We have the perfect combination for you with this combo pack. Enjoy the swirl of nutella that gives you that perfect sweet tooth moment and nuts that gives you that crunch!",
+      "ingredients": "Contains 6 Nutella Brownies and 6 Nutty Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+     {
+      "id": "combo-classic-strawberry-6x6",
+      "name": "Combo: Classic & Strawberry (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-classic-strawberry.jpg",
+      "description": "Share the rich Classic brownie and the fresh Strawberry topped delight. Perfect together! This box gives you the perfect combo with classic brownies and the strawberry brownies. These two in one box are perfect to be shared with a friend or keep all for yourself.",
+      "ingredients": "Contains 6 Classic Brownies and 6 Strawberry Topped Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "combo-kitkat-toblerone-6x6",
+      "name": "Combo: KitKat & Toblerone (6+6)",
+      "price": "Rs. XXXX",
+      "image_url": "images/brownie-combo-kitkat-toblerone.jpg",
+      "description": "Two delicious powerhouses in one box! Satisfying crisp meets elevated Toblerone goodness. Two delicious items in one box! Enjoy the two deliciousness in this one box. This combo box will gives you the satisfying crisp of Kitkat and it is paired with Toblerone that elevates your brownie experience!",
+      "ingredients": "Contains 6 KitKat Brownies and 6 Toblerone Brownies. See individual ingredients.",
+      "category": "brownies"
+    },
+    {
+      "id": "classic-milk-toffees-16",
+      "name": "Classic Milk Toffees (Pack of 16)",
+      "price": "Rs. XXXX",
+      "image_url": "images/toffees.jpg",
+      "description": "16 Smooth, Creamy Milk Toffees That Melt in Your Mouth! Return to simpler times with our Classic Milk Toffees. These smooth, creamy delights melt in your mouth, offering a timeless sweetness that will remind you of childhood.",
+      "ingredients": "Sweetened Condensed Milk, Sugar, Butter, Glucose Syrup, Golden Syrup, Vanilla Extract.",
+      "category": "other"
+    },
+    {
+      "id": "choc-chip-cookies-12",
+      "name": "Choc Chip Cookies (Box of 12)",
+      "price": "Rs. XXXX",
+      "image_url": "images/cookies-choc-chip.jpg",
+      "description": "12 Soft, Golden Cookies Packed With Rich Chocolate Chips! Our Choc Chip Cookies are soft, golden, and packed with rich chocolate chips. A classic treat made with the finest ingredients, perfect for satisfying your cookie cravings with a touch of elegance.",
+      "ingredients": "Flour, Butter, Sugar, Brown Sugar, Eggs, Chocolate Chips, Vanilla Extract, Baking Soda, Salt.",
+      "category": "cookies"
+    },
+    {
+      "id": "chocolate-swiss-roll",
+      "name": "Chocolate Swiss Roll",
+      "price": "Rs. XXXX",
+      "image_url": "images/swiss-roll.jpg",
+      "description": "A Luxurious Chocolate Swiss Roll with Velvety Cocoa Layers and creamy filling! Indulge in layers of velvety cocoa and creamy filling with our luxurious Chocolate Swiss Roll. This elegant dessert is perfect for sharing (or not!) and will delight any chocolate lover.",
+      "ingredients": "Eggs, Sugar, Flour, Cocoa Powder, Buttercream Filling (Butter, Powdered Sugar, Vanilla).",
+      "category": "other"
+    },
+    {
+      "id": "chocolate-biscuit-pudding-500g",
+      "name": "Chocolate Biscuit Pudding (500g)",
+      "price": "Rs. XXXX",
+      "image_url": "images/biscuit-pudding.jpg",
+      "description": "Rich Chocolate Biscuit Pudding Layered with Silky Chocolate! Dive into a rich and decadent experience with our Chocolate Biscuit Pudding. Layers of silky chocolate and decadent goodness. This pudding offers a rich and indulgent experience that's perfect for satisfying your deepest chocolate cravings.",
+      "ingredients": "Marie Biscuits, Cocoa Powder, Sugar, Butter, Milk, Vanilla Extract.",
+      "category": "other"
+    }
+  ]

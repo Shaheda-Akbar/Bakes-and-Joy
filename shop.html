@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Our Treats - Bakes & Joy</title>
+  <meta name="description" content="Browse and shop our delicious selection of homemade brownies, cookies, toffees, and more from Bakes & Joy. Baked with love!">
+
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <!-- TODO: Add your favicon -->
+  <!-- <link rel="icon" href="/favicon.ico" sizes="any"> -->
+  <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="Bakes & Joy Logo"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html" class="active-nav">Shop</a></li> <!-- Keep active-nav here -->
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="header-button">Order Inquiry</a>
+    </nav>
+    <div class="social-icons">
+      <!-- TODO: Replace placeholder URLs -->
+      <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="tel:0703161673" aria-label="Call Us"><i class="fas fa-phone"></i></a>
+    </div>
+  </header>
+
+  <div class="content-wrapper">
+    <main>
+
+      <section id="hero" class="shop-hero"> <!-- Added class="shop-hero" -->
+        <div class="hero-content">
+          <h1>Explore Our Treats</h1>
+          <h2>Baked Fresh, Just For You!</h2>
+          <!-- Optional: Button linking to the first category -->
+          <a href="#shop-brownies" class="button">Shop Brownies</a>
+        </div>
+        <!-- Background image will be set via CSS using .shop-hero -->
+      </section>
+
+      <!-- ======================= -->
+      <!-- Category: Brownies      -->
+      <!-- ======================= -->
+      <section id="shop-brownies" class="product-category">
+        <h2 class="category-title">Brownies</h2>
+        <p class="category-description">Indulge in our rich and fudgy brownies, available individually, in assorted boxes, or exciting combo packs!</p>
+        <div class="product-grid">
+
+          <!-- Divine Brownies -->
+          <div class="product-item">
+            <img src="images/brownie-divine.jpg" alt="Box of 6 Divine Brownies with assorted toppings" class="product-image">
+            <h3 class="product-name">Divine Brownies (Box of 6)</h3>
+            <p class="product-description">6 Fudgy brownies topped with your choice of: Nutella, Fresh Strawberries, & Crunchy Nuts! A customizable trio.</p>
+            <p class="product-price">Rs. 2100</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=divine-brownies-6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Nutella Brownies (6) -->
+          <div class="product-item">
+            <img src="images/brownie-nutella-6.jpg" alt="Box of 6 Nutella swirled brownies" class="product-image">
+            <h3 class="product-name">Nutella Brownies (Box of 6)</h3>
+            <p class="product-description">6 Luxurious Brownies Swirled with Creamy Nutella! An irresistible swirl of fudgy goodness and hazelnut spread.</p>
+            <p class="product-price">Rs. 2000</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=nutella-brownies-6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- KitKat Brownies (6) -->
+          <div class="product-item">
+            <img src="images/brownie-kitkat-6.jpg" alt="Box of 6 KitKat layered brownies" class="product-image">
+            <h3 class="product-name">KitKat Brownies (Box of 6)</h3>
+            <p class="product-description">6 Fudgy Brownies Layered with Crispy Kit Kat Bars! The perfect balance of fudgy and crunchy textures.</p>
+            <p class="product-price">Rs. 2000</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=kitkat-brownies-6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Toblerone Brownies (6) -->
+          <div class="product-item">
+            <img src="images/brownie-toblerone-6.jpg" alt="Box of 6 Toblerone studded brownies" class="product-image">
+            <h3 class="product-name">Toblerone Brownies (Box of 6)</h3>
+            <p class="product-description">6 Sumptuous Brownies Studded with Toblerone Chocolate! Honey-almond nougat goodness in every bite.</p>
+            <p class="product-price">Rs. 2100</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=toblerone-brownies-6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Standard Assorted Brownies (10) -->
+          <div class="product-item">
+            <img src="images/brownie-assorted-standard.jpg" alt="Box of 10 assorted brownies" class="product-image">
+            <h3 class="product-name">Standard Assorted (Box of 10)</h3>
+            <p class="product-description">10 Brownies: 2 Each of Nutella, KitKat, Toblerone, Nuts & Strawberry! Explore our brownie universe.</p>
+            <p class="product-price">Rs. 3300</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=standard-assorted-brownies-10" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Special Assorted Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-assorted-special.jpg" alt="Box of 12 assorted brownies (Nutella, KitKat, Toblerone)" class="product-image">
+            <h3 class="product-name">Special Assorted (Box of 12)</h3>
+            <p class="product-description">12 Brownies: 4 Each of Nutella, KitKat & Toblerone! A curated collection of our most decadent brownies.</p>
+            <p class="product-price">Rs. 3800</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=special-assorted-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Ganache Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-ganache.jpg" alt="Box of 12 dark chocolate ganache brownies" class="product-image">
+            <h3 class="product-name">Ganache Brownies (Box of 12)</h3>
+            <p class="product-description">12 Rich Brownies Loaded with Dark Chocolate Ganache! An intense chocolate experience for the true aficionado.</p>
+            <p class="product-price">Rs. 3600</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=ganache-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Nutty Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-nutty-12.jpg" alt="Box of 12 nutty brownies" class="product-image">
+            <h3 class="product-name">Nutty Brownies (Box of 12)</h3>
+            <p class="product-description">12 Rich Brownies Loaded with Crunchy Nuts! A satisfying texture and burst of nutty flavor in every bite.</p>
+            <p class="product-price">Rs. 3600</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=nutty-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Strawberry Topped Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-strawberry-12.jpg" alt="Box of 12 strawberry topped brownies" class="product-image">
+            <h3 class="product-name">Strawberry Topped (Box of 12)</h3>
+            <p class="product-description">12 Moist Brownies Topped with Fresh Strawberries! Rich chocolate meets fruity refreshment.</p>
+            <p class="product-price">Rs. 3700</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=strawberry-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Nutella Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-nutella-12.jpg" alt="Box of 12 Nutella swirled brownies" class="product-image">
+            <h3 class="product-name">Nutella Brownies (Box of 12)</h3>
+            <p class="product-description">12 Luxurious Brownies Swirled with Creamy Nutella! Lose yourself in every decadent bite.</p>
+            <p class="product-price">Rs. 3800</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=nutella-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- KitKat Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-kitkat-12.jpg" alt="Box of 12 KitKat layered brownies" class="product-image">
+            <h3 class="product-name">KitKat Brownies (Box of 12)</h3>
+            <p class="product-description">12 Fudgy Brownies Layered with Crispy Kit Kat Bars! A symphony of chocolatey goodness and satisfying snap.</p>
+            <p class="product-price">Rs. 3800</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=kitkat-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Toblerone Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-toblerone-12.jpg" alt="Box of 12 Toblerone studded brownies" class="product-image">
+            <h3 class="product-name">Toblerone Brownies (Box of 12)</h3>
+            <p class="product-description">12 Sumptuous Brownies Studded with Toblerone Chocolate! A journey to the top of chocolate mountain.</p>
+            <p class="product-price">Rs. 3900</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=toblerone-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Classic Brownies (12) -->
+          <div class="product-item">
+            <img src="images/brownie-classic-12.jpg" alt="Box of 12 classic fudgy brownies" class="product-image">
+            <h3 class="product-name">Classic Brownies (Box of 12)</h3>
+            <p class="product-description">12 Rich, Fudgy Brownies with a Perfect Gooey Center! A timeless treat that satisfies every time.</p>
+            <p class="product-price">Rs. 3500</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=classic-brownies-12" class="button button--red product-button">View Details</a>
+          </div>
+
+           <!-- Combo: 6 Classic & 6 Nutella -->
+           <div class="product-item">
+            <img src="images/brownie-combo-classic-nutella.jpg" alt="Combo box: 6 Classic and 6 Nutella brownies" class="product-image">
+            <h3 class="product-name">Combo: Classic & Nutella (6+6)</h3>
+            <p class="product-description">The best of both worlds! 6 Rich Classic Brownies paired with 6 Nutella swirled delights.</p>
+            <p class="product-price">Rs. 3700</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-classic-nutella-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Combo: 6 Nutty & 6 KitKat -->
+          <div class="product-item">
+            <img src="images/brownie-combo-nutty-kitkat.jpg" alt="Combo box: 6 Nutty and 6 KitKat brownies" class="product-image">
+            <h3 class="product-name">Combo: Nutty & KitKat (6+6)</h3>
+            <p class="product-description">The perfect blend of nutty flavor and crispy KitKat texture in one mouth-watering box.</p>
+            <p class="product-price">Rs. 3750</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-nutty-kitkat-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Combo: 6 Strawberry & 6 Toblerone -->
+          <div class="product-item">
+            <img src="images/brownie-combo-strawberry-toblerone.jpg" alt="Combo box: 6 Strawberry and 6 Toblerone brownies" class="product-image">
+            <h3 class="product-name">Combo: Strawberry & Toblerone (6+6)</h3>
+            <p class="product-description">A delightful fruity twist paired with the elevated Toblerone brownie experience.</p>
+            <p class="product-price">Rs. 3850</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-strawberry-toblerone-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Combo: 6 Nutella & 6 Nutty -->
+          <div class="product-item">
+            <img src="images/brownie-combo-nutella-nutty.jpg" alt="Combo box: 6 Nutella and 6 Nutty brownies" class="product-image">
+            <h3 class="product-name">Combo: Nutella & Nutty (6+6)</h3>
+            <p class="product-description">Can't get enough nuts? Enjoy the swirl of Nutella and the satisfying crunch of nutty brownies.</p>
+            <p class="product-price">Rs. 3750</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-nutella-nutty-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+          <!-- Combo: 6 Classic & 6 Strawberry -->
+          <div class="product-item">
+            <img src="images/brownie-combo-classic-strawberry.jpg" alt="Combo box: 6 Classic and 6 Strawberry brownies" class="product-image">
+            <h3 class="product-name">Combo: Classic & Strawberry (6+6)</h3>
+            <p class="product-description">Share the rich Classic brownie and the fresh Strawberry topped delight. Perfect together!</p>
+            <p class="product-price">Rs. 3650</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-classic-strawberry-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+           <!-- Combo: 6 KitKat & 6 Toblerone -->
+           <div class="product-item">
+            <img src="images/brownie-combo-kitkat-toblerone.jpg" alt="Combo box: 6 KitKat and 6 Toblerone brownies" class="product-image">
+            <h3 class="product-name">Combo: KitKat & Toblerone (6+6)</h3>
+            <p class="product-description">Two delicious powerhouses in one box! Satisfying crisp meets elevated Toblerone goodness.</p>
+            <p class="product-price">Rs. 3850</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=combo-kitkat-toblerone-6x6" class="button button--red product-button">View Details</a>
+          </div>
+
+        </div> <!-- End Brownie Grid -->
+      </section>
+
+      <!-- ======================= -->
+      <!-- Category: Cookies       -->
+      <!-- ======================= -->
+      <section id="shop-cookies" class="product-category">
+        <h2 class="category-title">Cookies</h2>
+        <p class="category-description">Classic cookies baked to perfection, perfect with a glass of milk or just on their own.</p>
+        <div class="product-grid">
+           <!-- Choc Chip Cookies -->
+           <div class="product-item">
+            <img src="images/cookies-choc-chip.jpg" alt="Box of 12 chocolate chip cookies" class="product-image">
+            <h3 class="product-name">Choc Chip Cookies (Box of 12)</h3>
+            <p class="product-description">12 Soft, golden cookies packed with rich chocolate chips. A classic treat made with the finest ingredients.</p>
+            <p class="product-price">Rs. 1500</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=choc-chip-cookies-12" class="button button--red product-button">View Details</a>
+          </div>
+           <!-- Add more cookie types here if available -->
+        </div>
+      </section>
+
+      <!-- ======================= -->
+      <!-- Category: Other Sweets  -->
+      <!-- ======================= -->
+       <section id="shop-other-sweets" class="product-category">
+        <h2 class="category-title">Other Sweet Treats</h2>
+        <p class="category-description">Explore our selection of other delightful sweets, from classic toffees to rich puddings.</p>
+        <div class="product-grid">
+          <!-- Classic Milk Toffees -->
+          <div class="product-item">
+            <img src="images/toffees.jpg" alt="Pack of 16 classic milk toffees" class="product-image">
+            <h3 class="product-name">Classic Milk Toffees (Pack of 16)</h3>
+            <p class="product-description">16 Smooth, Creamy Milk Toffees That Melt in Your Mouth! A timeless sweetness reminiscent of childhood.</p>
+            <p class="product-price">Rs. 800</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=classic-milk-toffees-16" class="button button--red product-button">View Details</a>
+          </div>
+          <!-- Chocolate Swiss Roll -->
+           <div class="product-item">
+            <img src="images/swiss-roll.jpg" alt="Chocolate swiss roll sliced" class="product-image">
+            <h3 class="product-name">Chocolate Swiss Roll</h3>
+            <p class="product-description">A Luxurious Chocolate Swiss Roll with Velvety Cocoa Layers and creamy filling! Perfect for sharing.</p>
+            <p class="product-price">Rs. 2500</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=chocolate-swiss-roll" class="button button--red product-button">View Details</a>
+          </div>
+           <!-- Chocolate Biscuit Pudding -->
+           <div class="product-item">
+            <img src="images/biscuit-pudding.jpg" alt="Chocolate biscuit pudding in a dish" class="product-image">
+            <h3 class="product-name">Chocolate Biscuit Pudding (500g)</h3>
+            <p class="product-description">Rich Chocolate Biscuit Pudding Layered with Silky Chocolate! A decadent experience perfect for satisfying cravings.</p>
+            <p class="product-price">Rs. 1800</p>
+            <!-- CORRECTED LINK -->
+            <a href="product-template.html?id=chocolate-biscuit-pudding-500g" class="button button--red product-button">View Details</a>
+          </div>
+           <!-- Add more other sweets here -->
+        </div>
+      </section>
+
+      <!-- ======================= -->
+      <!-- Custom Order CTA        -->
+      <!-- ======================= -->
+      <section id="custom-order-cta" class="custom-order-section">
+          <h2>Looking for a Custom Cake?</h2>
+          <p>We love creating unique cakes for your special celebrations! Whether it's a birthday, wedding, or any other event, let us bring your vision to life.</p>
+          <a href="contact.html" class="button button--red">Inquire About Custom Orders</a>
+      </section>
+
+    </main>
+  </div> <!-- End content-wrapper -->
+
+  <footer class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <img src="images/logo.png" alt="Bakes & Joy Logo" class="footer-logo-img">
+        <div class="icons footer-social-icons">
+           <!-- TODO: Replace placeholder URLs -->
+           <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+           <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+           <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Shop Categories</h4> <!-- Updated heading -->
+        <ul class="links">
+          <li><a href="#shop-brownies">Brownies</a></li>
+          <li><a href="#shop-cookies">Cookies</a></li>
+          <li><a href="#shop-other-sweets">Other Sweets</a></li>
+          <li><a href="contact.html">Custom Cakes</a></li> <!-- Link to contact for cakes -->
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><i class="fas fa-phone-alt"></i> <a href="tel:0703161673">0703161673</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> No:191, Railway Avenue, Maharagama</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:hellobakesnjoy@gmail.com">hellobakesnjoy@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <p>© 2024 Bakes & Joy. All rights reserved.</p>
+  </div>
+
+  <script>
+    // Script for copyright year update and smooth scrolling
+    document.addEventListener('DOMContentLoaded', function() {
+      // Update Copyright Year
+      const copyrightText = document.querySelector('.copyright p');
+      if (copyrightText) {
+        copyrightText.textContent = `© ${new Date().getFullYear()} Bakes & Joy. All rights reserved.`;
+      }
+
+      // Smooth scrolling for category links (within this page)
+      document.querySelectorAll('.footer .links a[href^="#"], a[href^="#shop-"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              const targetId = this.getAttribute('href');
+
+              // Ensure it's an on-page link before preventing default
+              if (targetId.startsWith('#')) {
+                 e.preventDefault(); // Prevent default jump only for on-page section links
+                 const targetElement = document.querySelector(targetId);
+
+                 if (targetElement) {
+                     const headerOffset = document.querySelector('header')?.offsetHeight || 80; // Adjust offset if needed
+                     const elementPosition = targetElement.getBoundingClientRect().top;
+                     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                     window.scrollTo({
+                         top: offsetPosition,
+                         behavior: "smooth"
+                     });
+                 }
+              }
+              // Let default behavior handle off-page links (like contact.html)
+          });
+      });
+    });
+  </script>
+
+</body>
+</html>
